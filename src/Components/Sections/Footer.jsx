@@ -114,7 +114,7 @@ const Footer = () => {
             <YouTubeIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Janu Kumar Singh. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

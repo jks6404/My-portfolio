@@ -187,10 +187,11 @@ export const education =[
     {
         id:0,
         img:nce,
-        shcool: "Nalanda College Of Engineering,Chandi",
+        school: "Nalanda College Of Engineering,Chandi",
         date: "Aug 2017-Nov 2021",
         grade: "7.74 CGPA",
         desc: "Bachelor Of Technology - BTech, Civil Engineering",
+        degree: "Graduation",
     },
     {
         id:1,
