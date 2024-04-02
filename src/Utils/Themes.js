@@ -1,4 +1,4 @@
-import { blue } from "@mui/material/colors"
+import { blue } from "@mui/material/colors";
 
 export const darkTheme = {
     bg: "#3A3B3C",

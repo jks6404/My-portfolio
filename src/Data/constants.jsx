@@ -6,7 +6,7 @@ import snakegame from '../Images/snakegame.jpeg';
 import calculator from '../Images/calculator.jpeg';
 import nce from '../Images/nce.webp';
 import school from '../Images/school.jpg';
-
+import octanet from '../Images/octanet.png'
 
 
 
@@ -183,6 +183,25 @@ export const projects=[
         
     }
 ]
+
+export const experiences = [
+    {
+      id: 0,
+      img: octanet,
+      role: "Web Developer",
+      company: "Octanet",
+      date: "July 2023 - August 2023",
+      desc: "Developed responsive and visually appealing user interfaces following instructions.Implemented features such as fetching data from APIs, search functionality, and detailed information panels.",
+      skills: [
+        "HTML",
+        "CSS Tailwind",
+        "JavaScript",
+        "ReactJs"
+      ],
+      doc: octanet,
+    },
+]
+
 export const education =[
     {
         id:0,
