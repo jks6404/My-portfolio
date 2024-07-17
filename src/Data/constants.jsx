@@ -193,7 +193,9 @@ export const experiences = [
         date: "July 2024 - present",
         desc: "Working on Web3, Learning about ICP (Internet Computer Protocol) and it's implementation. ",
         skills: [
-            "ICP",
+            "ICP", 
+            "Web3",
+            "BlockChain",
           "HTML",
           "CSS",
           "JavaScript",
