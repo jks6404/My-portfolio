@@ -9,7 +9,7 @@ import { AnimatePresence } from "framer-motion";
 import Education from "./Components/Sections/Education";
 import Experience from "./Components/Sections/Experience"
 import Projects from "./Components/Sections/Projects";
-import Contact from "./Components/Sections/Contact";
+// import Contact from "./Components/Sections/Contact";
 import Footer from "./Components/Sections/Footer";
 import ProjectDetails from "./Components/Dialog/ProjectDetails";
 import { useState } from "react";
@@ -55,7 +55,7 @@ function App() {
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />
-                <Contact />
+                {/* <Contact /> */}
               </Wrapper>
               <Footer />
 

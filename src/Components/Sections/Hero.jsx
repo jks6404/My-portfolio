@@ -11,7 +11,7 @@ import {
   headContentAnimation,
   headTextAnimation,
 } from "../../Utils/motion";
-import StarCanvas from "../Canvas/Stars";
+// import StarCanvas from "../Canvas/Stars";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -218,7 +218,7 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
+          {/* <StarCanvas /> */}
           <HeroBgAnimation />
         </HeroBg>
 
