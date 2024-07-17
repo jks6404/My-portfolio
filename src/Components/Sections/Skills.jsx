@@ -10,6 +10,8 @@ justify-content-center;
 position: relative;
 z-index: 1;
 align-items: center;
+overflow-y: auto; /* Enable vertical scrolling */
+  flex: 1; /* Take up the remaining space */
 `;
 const Wrapper = styled.div`
   position: relative;
@@ -20,6 +22,7 @@ const Wrapper = styled.div`
   width: 100%;
   max-width: 1100px;
   gap: 12px;
+ 
   @media (max-width: 960px) {
     flex-direction: column;
   }
@@ -54,16 +57,19 @@ const SkillsContainer = styled.div`
   margin-top: 20px;
   gap: 50px;
   justify-content: center;
+  
 `;
 const Skill = styled.div`
   width: 100%;
+  height:230px;
   max-width: 500px;
   background-color: rgba(17, 25, 40, 0.83);
   border: 1px solid rgba(255, 255, 255, 0.125);
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
-
+ overflow-y: auto; /* Enable vertical scrolling */
+  flex: 1; /* Take up the remaining space */
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -95,13 +101,13 @@ const SkillItem = styled.div`
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
+  border-radius: 20px;
   padding: 12px 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-
+  
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;

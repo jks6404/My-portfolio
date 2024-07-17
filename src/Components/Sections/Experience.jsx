@@ -74,9 +74,9 @@ const TimelineSection = styled.div`
 
 
 
-const index = () => {
+const Experience = () => {
     return (
-        <Container id="experience">
+        <Container id="Experience">
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
@@ -100,7 +100,7 @@ const index = () => {
                 </TimelineSection>
             </Wrapper>
         </Container>
-    )
-}
+    );
+};
 
-export default index
+export default Experience;
