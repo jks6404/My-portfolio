@@ -10,8 +10,6 @@ justify-content-center;
 position: relative;
 z-index: 1;
 align-items: center;
-overflow-y: auto; /* Enable vertical scrolling */
-  flex: 1; /* Take up the remaining space */
 `;
 const Wrapper = styled.div`
   position: relative;
