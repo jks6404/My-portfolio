@@ -7,7 +7,7 @@ import calculator from '../Images/calculator.jpeg';
 import nce from '../Images/nce.webp';
 import school from '../Images/school.jpg';
 import octanet from '../Images/octanet.png'
-import Quadb from '../Images/QuadB.png'
+
 
 
 export const Bio ={
@@ -185,23 +185,6 @@ export const projects=[
 ]
 
 export const experiences = [
-    {
-        id: 1,
-        img: Quadb,
-        role: "Junior ReactJs Developer",
-        company: "QuadB Tech",
-        date: "July 2024 - present",
-        desc: "Working on Web3, Learning about ICP (Internet Computer Protocol) and it's implementation. ",
-        skills: [
-            "ICP", 
-            "Web3",
-            "BlockChain",
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "ReactJs"
-        ]
-    },
     {
       id: 0,
       img: octanet,
