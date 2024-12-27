@@ -7,6 +7,7 @@ import calculator from '../Images/calculator.jpeg';
 import nce from '../Images/nce.webp';
 import school from '../Images/school.jpg';
 import octanet from '../Images/octanet.png'
+import quadb from '../Images/QuadB.png'
 
 
 
@@ -20,7 +21,7 @@ export const Bio ={
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/jks6404",
   resume:
-    "https://drive.google.com/file/d/1Vvp1Jx1WPsKyrV8t-35CiD1WRE1ckuJW/view?usp=sharing",
+    "https://drive.google.com/file/d/14OxHcbddX39z170NplnY3NWkfVN_lQES/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/janu-kumar-singh-517b3b1aa/",
   twitter: "https://x.com/unscripted_er?t=e1FB3Wu3X-lX9SthYITUWQ&s=09",
   insta: "https://www.instagram.com/unscripted_engineer/",
@@ -53,6 +54,11 @@ export const skills= [{
             name: "JavaScript",
             image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
 
+        },
+        {
+            name: "GSAP",
+            image:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3vteG2DudlxILcIB8idhgX49HFuCk4_nEtQ&s",
         },
         {
             name: "Bootstrap",
@@ -182,6 +188,7 @@ export const projects=[
         webapp:"https://react-calculator-ruddy-five.vercel.app/",
         
     }
+
 ]
 
 export const experiences = [
@@ -199,8 +206,24 @@ export const experiences = [
         "ReactJs"
       ],
       doc: octanet,
-    }
-
+    },
+    {
+        id: 1,
+        img: quadb,
+        role: "Web Developer",
+        company: "QuadB Technologies",
+        date: "July 2024 - Present",
+        desc: "Developed the frontend for a Web3 token selling launchpad, ensuring seamless user experience and integration with blockchain technology. Built the frontend of a gaming web app on the Internet Computer Protocol (ICP), delivering an interactive and responsive interface optimized for Web3 functionalities.",
+        skills: [
+          "HTML",
+          "CSS Tailwind",
+          "JavaScript",
+          "ReactJs",
+          "Internet Computer Protocol"
+        ],
+        
+      }
+    
 ]
 
 export const education =[
